@@ -16,9 +16,9 @@ class BlogPostController extends Controller
     public function create()
     {
         return view('blog.create');
+        // returns the post
     }
 
-   
     public function store(Request $request)
     {
         {
@@ -30,23 +30,24 @@ class BlogPostController extends Controller
     
             return redirect('blog/' . $newPost->id);
         }
+        // Stores current post
     }
 
     public function show(BlogPost $blogPost)
     {
-        return view('blog.show', ['post' => $blogPost]); //returns the view with post
+        return view('blog.show', ['post' => $blogPost]); 
+        //returns the view with post
     }
-
     
     public function edit(BlogPost $blogPost)
     {
         return view('blog.edit', [
             'post' => $blogPost,
-            ]); //returns the edit view with the post
+            ]); 
+            //returns the edit view with the post
     
     }
 
-    
     public function update(Request $request, BlogPost $blogPost)
     {
         $blogPost->update([
@@ -55,15 +56,15 @@ class BlogPostController extends Controller
         ]);
 
         return redirect('blog/' . $blogPost->id);
+        //updates the request
     }
-
     
     public function destroy(BlogPost $blogPost)
     {
         $blogPost->delete();
 
         return redirect('/blog');
-
+        //deletes the selected post
     }
 
 }
