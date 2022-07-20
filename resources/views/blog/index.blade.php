@@ -6,7 +6,7 @@
                  <div class="row">
                     <div class="col-8">
                         <h1 class="display-one noiceborder"><i>Our School Blog!</i></h1>
-                        <p>Enjoy reading our posts. Click on a post to read or Click "Add Post" to add your own post!</p>
+                        <p>Click on a post to read it or Click "Add Post" to add your own post!</p>
                     </div>
                     <div class="col-4 coloredbox">
                         <h3><b>Create a new Post</b></h3>
