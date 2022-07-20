@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <title>{{ config('app.name') }}</title>
-
+        
         <!-- Fonts -->
          <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
@@ -19,20 +19,42 @@
         <style>
             body {
                 font-family: 'Nunito';
+                background-color: lightgray;
+            }
+            .round-border{
+                border: 1px solid black;
+                border-radius: 20px;
+            }
+            .round-border:hover {
+                background-color: lightblue;
+            }
+            .Post-link {
+                background-color: lightblue;
+                color: black;
+                border-radius: 20px;
+                text-decoration: none;
+                text-decoration: bold;
+            }
+            .Post-link:hover {
+                background-color: red;
+                color: lightgray;
             }
         </style>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Navigation</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/blog">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item round-border">
+                        <a class="nav-link" href="/">Return to start page</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/blog/create/post">Add</a>
+                    <li class="nav-item active round-border">
+                        <a class="nav-link" href="/blog">Home</a>
+                    </li>
+                    <li class="nav-item round-border">
+                        <a class="nav-link" href="/blog/create/post">Add Post</a>
                     </li>
                 </ul>
             </div>
