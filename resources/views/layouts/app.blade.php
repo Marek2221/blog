@@ -24,9 +24,11 @@
             .round-border{
                 border: 1px solid black;
                 border-radius: 10px;
+                transition: 0.2s ease-out;
             }
             .round-border:hover {
                 background-color: lightblue;
+                transition: 0.2s ease-out;
             }
             .Post-link {
                 background-color: lightblue;
@@ -34,10 +36,12 @@
                 border-radius: 10px;
                 text-decoration: none;
                 text-decoration: bold;
+                transition: 0.2s ease-out;
             }
             .Post-link:hover {
                 background-color: red;
                 color: lightgray;
+                transition: 0.2s ease-out;
             }
             .separator {
                 width: 100%; 
@@ -46,6 +50,7 @@
             }
             .coloredbox {
                 background-color: darkgray;
+                border-radius: 10px;
             }
         </style>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -63,6 +68,9 @@
                     </li>
                     <li class="nav-item round-border">
                         <a class="nav-link" href="/blog/create/post">Add Post</a>
+                    </li>
+                    <li class="nav-item round-border">
+                        <a class="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Rick Roll</a>
                     </li>
                 </ul>
             </div>
