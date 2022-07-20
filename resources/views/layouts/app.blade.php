@@ -39,8 +39,16 @@
                 background-color: red;
                 color: lightgray;
             }
+            .separator {
+                width: 100%; 
+                height: 20px; 
+                background-color: gray;
+            }
+            .coloredbox {
+                background-color: darkgray;
+            }
         </style>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Navigation</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

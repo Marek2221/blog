@@ -8,11 +8,13 @@
                         <h1 class="display-one"><i>Our School Blog!</i></h1>
                         <p>Enjoy reading our posts. Click on a post to read or Click "Add Post" to add your own post!</p>
                     </div>
-                    <div class="col-4">
-                        <p><b>Create new Post</b></p>
+                    <div class="col-4 coloredbox">
+                        <h3><b>Create a new Post</b></h3>
                         <a href="/blog/create/post" class="btn btn-primary btn-sm">Add Post</a>
                     </div>
-                </div>                
+                </div>      
+                <br>          
+                <div class="separator"></div><br>
                 @forelse($posts as $post)
                     <ul>
                         <li><a class="Post-link" href="./blog/{{ $post->id }}">{{ ucfirst($post->title) }}</a></li>
