@@ -5,7 +5,7 @@
             <div class="col-12 text-center pt-5">
                 <div class="separator"></div>
                 <h1 class="display-one mt-5">{{ config('app.name') }}</h1>
-                <p>Welcome to <b><i>Our School Blog</i></b>. 
+                <p>Welcome to <b><i>{{ config('app.name') }}</i></b>. 
                 <br>The place where students can freely express their opinions or share their experiences.</p>
                 <br>
                 <a href="/blog" class="btn btn-primary">Show Blogs</a><br><br>
