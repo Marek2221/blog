@@ -7,8 +7,8 @@
                 <h1 class="display-one" style="text-decoration: underline">{{ ucfirst($post->title) }}</h1>
                 <p>{!! $post->body !!}</p> 
                 <hr>
-                <a onclick="if({{$post->id}} > 1) {window.open('/blog/{{ $post -> id - 1}}', '_self')} else {window.open('/blog', '_self')}" class="btn btn-outline-primary">Previous Post</a>
-                <a onclick="if({{$post->id}} < 18) {window.open('/blog/{{ $post -> id + 1}}', '_self')} else {window.open('/blog', '_self')}" class="btn btn-outline-primary">Next Post</a>
+                <a onclick="if({{$post->id}} > 1) {window.open('/blog/{{ $post -> id - 1}}', '_self')} else {window.open('/blog/18', '_self')}" class="btn btn-outline-primary">Previous Post</a>
+                <a onclick="if({{$post->id}} < 18) {window.open('/blog/{{ $post -> id + 1}}', '_self')} else {window.open('/blog/1', '_self')}" class="btn btn-outline-primary">Next Post</a>
                 <br><br>
                 <a href="/blog/{{ $post->id }}/edit" class="btn btn-outline-primary">Edit Post</a>
                 <br><br>
