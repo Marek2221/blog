@@ -8,7 +8,7 @@
                 <p>{!! $post->body !!}</p> 
                 <hr>
                 <a onclick="if({{$post->id}} > 1) {window.open('/blog/{{ $post -> id - 1}}', '_self')} else {window.open('/blog', '_self')}" class="btn btn-outline-primary">Previous Post</a>
-                <a onclick="if({{$post->id}} < 12) {window.open('/blog/{{ $post -> id + 1}}', '_self')} else {window.open('/blog', '_self')}" class="btn btn-outline-primary">Next Post</a>
+                <a onclick="if({{$post->id}} < 18) {window.open('/blog/{{ $post -> id + 1}}', '_self')} else {window.open('/blog', '_self')}" class="btn btn-outline-primary">Next Post</a>
                 <br><br>
                 <a href="/blog/{{ $post->id }}/edit" class="btn btn-outline-primary">Edit Post</a>
                 <br><br>
