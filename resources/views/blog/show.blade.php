@@ -4,9 +4,12 @@
         <div class="row">
             <div class="col-12 pt-2">
                 <a href="/blog" class="btn btn-outline-primary btn-sm">Go back</a>
-                <h1 class="display-one">{{ ucfirst($post->title) }}</h1>
+                <h1 class="display-one" style="text-decoration: underline">{{ ucfirst($post->title) }}</h1>
                 <p>{!! $post->body !!}</p> 
                 <hr>
+                <a href="./{{ $post->id - 1 }}" class="btn btn-outline-primary">Previous Post</a>
+                <a href="./{{ $post->id + 1 }}" class="btn btn-outline-primary">Next Post</a>
+                <br><br>
                 <a href="/blog/{{ $post->id }}/edit" class="btn btn-outline-primary">Edit Post</a>
                 <br><br>
                 <form id="delete-frm" class="" action="" method="POST">

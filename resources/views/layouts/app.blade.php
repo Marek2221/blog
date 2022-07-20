@@ -23,7 +23,7 @@
             }
             .round-border{
                 border: 1px solid black;
-                border-radius: 20px;
+                border-radius: 10px;
             }
             .round-border:hover {
                 background-color: lightblue;
@@ -31,7 +31,7 @@
             .Post-link {
                 background-color: lightblue;
                 color: black;
-                border-radius: 20px;
+                border-radius: 10px;
                 text-decoration: none;
                 text-decoration: bold;
             }
