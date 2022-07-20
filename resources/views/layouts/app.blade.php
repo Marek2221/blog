@@ -52,6 +52,11 @@
                 background-color: darkgray;
                 border-radius: 10px;
             }
+            .noiceborder {
+                border: 1px solid black;
+                border-radius: 10px;
+                background-color: white;
+            }
         </style>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Navigation</a>

@@ -5,7 +5,7 @@
             <div class="col-12 pt-2">
                  <div class="row">
                     <div class="col-8">
-                        <h1 class="display-one"><i>Our School Blog!</i></h1>
+                        <h1 class="display-one noiceborder"><i>Our School Blog!</i></h1>
                         <p>Enjoy reading our posts. Click on a post to read or Click "Add Post" to add your own post!</p>
                     </div>
                     <div class="col-4 coloredbox">
