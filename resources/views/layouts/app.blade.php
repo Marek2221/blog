@@ -65,10 +65,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item round-border">
+                    <li class="nav-item active round-border">
                         <a class="nav-link" href="/">Return to start page</a>
                     </li>
-                    <li class="nav-item active round-border">
+                    <li class="nav-item round-border">
                         <a class="nav-link" href="/blog">Home</a>
                     </li>
                     <li class="nav-item round-border">
@@ -79,7 +79,7 @@
                     </li>
                 </ul>
             </div>
-    </nav>
+        </nav>
 
     </head>
 
